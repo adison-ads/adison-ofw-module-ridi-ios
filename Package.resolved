@@ -1,0 +1,15 @@
+{
+  "originHash" : "bdb4ee122cf62dcf7d4445422da926c79e56adc23fc80df207db52e96c09eb9c",
+  "pins" : [
+    {
+      "identity" : "adison-offerwall-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adison-ads/adison-offerwall-ios-sdk",
+      "state" : {
+        "revision" : "856a5611681647aa40815c4d3a8810a6345b5f87",
+        "version" : "3.4.4"
+      }
+    }
+  ],
+  "version" : 3
+}
