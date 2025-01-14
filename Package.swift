@@ -19,8 +19,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "RidiOfwModule",
-            url: "https://github.com/adison-ads/adison-ofw-module-ridi-ios/releases/download/0.11.2/RidiOfwModule.zip",
-            checksum: "900c877f46efbcb9ee5782ddf1c2ed85ac60ed5739f99995584223fff210f33b"
+            url: "https://github.com/adison-ads/adison-ofw-module-ridi-ios/releases/download/0.11.4/RidiOfwModule.zip",
+            checksum: "a73144381bda759df2f09a79601c5098025de3620a81ab85afcfdc226d3744e3"
         ),
         .target(
             name: "RidiOfwModuleTarget",
