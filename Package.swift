@@ -12,15 +12,15 @@ let package = Package(
             targets: ["RidiOfwModule", "RidiOfwModuleTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "3.14.2")
+        .package(url: "https://github.com/adison-ads/adison-offerwall-ios-sdk", exact: "3.16.4")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
         .binaryTarget(
             name: "RidiOfwModule",
-            url: "https://github.com/adison-ads/adison-ofw-module-ridi-ios/releases/download/0.12.0/RidiOfwModule.zip",
-            checksum: "a4e3797d2ee0af57234169104dccc070ce7c32e180687349f4445645e7152e31"
+            url: "https://github.com/adison-ads/adison-ofw-module-ridi-ios/releases/download/0.13.0/RidiOfwModule.zip",
+            checksum: "91e220d1032a526c8678fc8e4ed9cc7060d53c5076ab556314b3c938fb637bc2"
         ),
         .target(
             name: "RidiOfwModuleTarget",
